@@ -20,6 +20,7 @@ services:
 
     ekreative_redmine_login.provider:
         class: Ekreative\RedmineLoginBundle\Security\RedmineUserProvider
+        public: true
         arguments:
             - "@ekreative_redmine_login.redmine"
             - "@ekreative_redmine_login.user_factory"
