@@ -56,14 +56,6 @@ class LoginController extends JsonController
     /**
      * @Route("/login")
      * @Method({"POST"})
-     * @ApiDoc(
-     *   description="Get the users api key",
-     *   resource=true,
-     *   input="Ekreative\RedmineLoginBundle\Form\Type\LoginType",
-     *   statusCodes={
-     *     401={"Invalid username or password"}
-     *   }
-     * )
      */
     public function apiLoginAction(Request $request)
     {
