@@ -7,7 +7,6 @@ namespace Ekreative\RedmineLoginBundle\Controller;
 
 use Ekreative\RedmineLoginBundle\Form\Type\LoginType;
 use Mcfedr\JsonFormBundle\Controller\JsonController;
-use Nelmio\ApiDocBundle\Annotation\ApiDoc;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Method;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
